@@ -1,122 +1,88 @@
 html {
-  background: url('../img/2.jpg') no-repeat center center fixed;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-body{
-  background-color: transparent;
+.navbar-inverse{
+  padding: 5px 0 5px 0;
 }
 
-.cc{
+.logo{
   font-size: 50px;
 }
 
-.container-fluid{
-  margin: 10px 380px 10px 380px;
+.body{
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: white;
 }
 
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
-  font-size: 66px;
-  margin: 5px 0 5px 0;
-}
-
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
-  color: rgb(27, 17, 5);
-}
-
-.navbar-default .navbar-nav>li>a{
-  color: rgb(27, 17, 5);
-}
-
-.navbar-default{
+.navbar-inverse{
   background-color: transparent;
   border-color: transparent;
 }
 
-.branco{
-  background-image: url('nature.jpg');
-  background-repeat: no-repeat;
-  background-size:100%;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0px;
-  background-color: rgb(255, 255, 255);
+.navbar-inverse .navbar-toggle{
+  background-color: #333;
+  border-color: #333;
 }
 
-h1{
-  margin-top: 50px;
+.navbar-inverse .navbar-nav>li>a{
+  color: black;
 }
 
-.informaçao{
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: black;
 }
 
-.imagemesq img{
-  margin-top: 50px;
-  margin-left: 100px;
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+  color: black;
+}
+
+.col-md-6{
+  margin-top: 100px;
+}
+
+.right img{
   width: 300px;
-  height: 200px;
-  border-radius: 200px;
+  height: 300px;
+  border-radius: 300px;
 }
 
-.imagemdir img{
-  margin-top: 40px;
-  margin-left: 100px;
+.left img{
   width: 300px;
-  height: 200px;
-  border-radius: 200px;
+  height: 300px;
+  border-radius: 300px;
 }
 
-.divisoria{
-  margin-bottom: auto;
-}
-
-.col-md-7{
-  margin-left: 70px;
-}
-
-.quemsomos{
-  margin-left: 100px;
+.left{
   text-align: center;
 }
 
-.quemsomos h1{
-  text-align: center;
-  margin-bottom: 50px;
+.left p{
+  margin: 10px 0 5px 0;
 }
 
-.quemsomos img{
-  margin-top: 35px;
-  margin-left: 0px;
-  width: 250px;
-  height: 250px;
-}
-
-iframe{
-  margin-top: 55px;
-  margin-left: 25%;
-}
-
-h1{
+.right{
   text-align: center;
 }
 
-.col-md-10{
-  margin-left: 110px;
+.top{
+  margin-top: 100px;
+  text-align: center;
 }
 
-.contactos{
-  margin-left: 100px;
-}
-
-.contactos p{
-  margin-bottom: 0;
-  margin-top: 12px;
+.bot{
+  margin-top: 50px;
+  text-align: center;
 }
