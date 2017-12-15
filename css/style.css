@@ -96,3 +96,9 @@ html {
 .navbar-collapse{
   box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
 }
+
+@media (max-width: 768px){
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    background-color: white;
+  }
+}
