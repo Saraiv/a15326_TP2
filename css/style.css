@@ -28,8 +28,10 @@ html {
 }
 
 .navbar-inverse{
+  margin-left: 30%;
   background-color: transparent;
   border-color: transparent;
+  border: 0;
 }
 
 .navbar-inverse .navbar-toggle{
@@ -85,4 +87,12 @@ html {
 .bot{
   margin-top: 50px;
   text-align: center;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border: 0;
+}
+
+.navbar-collapse{
+  box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
 }
