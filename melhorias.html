@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CC</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="menu">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-header">
+            <div class="container">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse as">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="quemsomos.html">Quem somos?</a>
+              </li>
+              <li>
+                <a href="tutoriais.html">Tutoriais</a>
+              </li>
+              <li>
+                <a class="logo" href="index.html">CC</a>
+              </li>
+              <li>
+                <a href="componentes.html">Componentes</a>
+              </li>
+              <li>
+                <a href="melhorias.html">Melhorias</a>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+
+    <div class="body">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <div class="caption">
+              <form action="#" method="post" id="submit2">
+                <div class="form-group">
+                  <h1 class="titulo">Melhorias</h1>
+                  <label for="inputsm">Nome *</label>
+                  <input class="form-control input-sm" id="inputsm nome" name="nome" type="text" >
+                </div>
+                <div class="form-group">
+                  <label for="inputsm">Telefone *</label>
+                  <input class="form-control input-sm" id="inputsm nm" type="text" name="nm" minlength="9" maxlength="9">
+                </div>
+                <div class="form-group">
+                  <label for="inputsm">Correio eletrónico *</label>
+                  <input class="form-control input-sm" id="inputsm mail" name="mail" type="text" >
+                </div>
+                <div class="form-group">
+                  <label for="comment">Possíveis melhorias *</label>
+                  <textarea class="form-control" rows="5" id="comment obs" name="obs" ></textarea >
+                </div>
+                <p>* Campos obrigatórios</p>
+                <button type="button" class="botaosubmit btn" id="btnsubmit" name="button">Submeter</button>
+              </form>
+            </div>
+        </div>
+
+          <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.514227832402!2d-8.408455684776278!3d41.55811407924893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24fe9a1f9f463f%3A0x5d96d27c7a177625!2sBraga+Parque!5e0!3m2!1spt-PT!2spt!4v1515672291886" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    </script>
+  </body>
+</html>
